@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="facebook_app_id">1383798641684457</string>
+
+    <string name="app_name">IntexSoft</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_photo_details">PhotoDetailsActivity</string>
+
+    //TextViews
+    <string name="tv_login_to_continue">Log in to continue:</string>
+    <string name="tv_no_images">No images published yet</string>
+    <string name="tv_email">Email: </string>
+    <string name="tv_birthday">Birthday: </string>
+
+    //Toasts
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="connection_error">Enable internet connection and sign up!</string>
+    <string name="delete_error">Log in to delete photos!</string>
+    <string name="upload_success">Photo has been successfully uploaded!</string>
+    <string name="photo_exists">"This photo have been posted already!"</string>
+    <string name="logout_error">"You must be logged in to log out!"</string>
+    <string name="delete_success">"Photo was deleted!"</string>
+
+    //Titles
+    <string name="photo_details">Photo details</string>
+    <string name="photos">My photos</string>
+    <string name="profile">My profile</string>
+
+    //Dialogs
+    <string name="delete_dialog_title">Delete photo</string>
+    <string name="delete_dialog_message">Delete this photo?</string>
+    <string name="delete_dialog_positive">Delete</string>
+    <string name="delete_dialog_negative">Cancel</string>
+
+    <string name="logout_dialog_title">Log out</string>
+    <string name="logout_dialog_message">Log out from app?</string>
+    <string name="logout_dialog_positive">Yes</string>
+    <string name="logout_dialog_negative">Cancel</string>
+
+    <string name="upload_dialog_title">Uploading...</string>
+    <string name="upload_dialog_message">Please wait</string>
+</resources>

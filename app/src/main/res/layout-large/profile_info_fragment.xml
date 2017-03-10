@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/ivProfilePhoto"
+        android:src="@drawable/material_panel_navigation"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_alignTop="@+id/ivProfilePhoto"
+        android:layout_toEndOf="@+id/ivProfilePhoto"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProfileEmail"
+        android:text="@string/tv_email"
+        android:textSize="16sp"
+        style="@style/AppTheme"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvProfileBirthday"
+        android:layout_alignStart="@+id/tvProfileBirthday" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProfileBirthday"
+        android:text="@string/tv_birthday"
+        android:textSize="16sp"
+        style="@style/AppTheme"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvProfileName"
+        android:layout_alignStart="@+id/tvProfileName" />
+
+</RelativeLayout>

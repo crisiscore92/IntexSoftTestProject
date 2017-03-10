@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "416109285560",
+    "firebase_url": "https://intexsofttestproject.firebaseio.com",
+    "project_id": "intexsofttestproject",
+    "storage_bucket": "intexsofttestproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416109285560:android:cdd8e0fc1ccd78c4",
+        "android_client_info": {
+          "package_name": "com.crisiscore.www.intexsofttestproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416109285560-rlq3i8eldrnmaldd8gipdijtnvng9r8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfNQMLWBXtEsWfMQ9aWRMH8w5ra8mARhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
